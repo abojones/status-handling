@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  .container {
+    width: 100%;
+  }
+
+  .controls {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .controls__status {
+      width: 50%;
+      @media only screen and (min-width: 600px) {
+        width: 15%;
+      }
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+
+    .list__status {
+      margin: 20px;
+      width: 100%;
+      @media only screen and (min-width: 600px) {
+        width: 15%;
+      }
+    }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
