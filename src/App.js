@@ -136,6 +136,7 @@ export default class App extends Component {
           </div>
           <button onClick={this.handleSubmit} type="submit">Submit</button>
           <button onClick={this.clearList}>Clear list</button>
+          <p>Add elements to the array, then submit them to see the status response appear</p>
         </div>
         <div className="list">
           {this.renderList()}
